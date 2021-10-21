@@ -10,7 +10,7 @@ resource "azurerm_virtual_network" "rodrigo-vtn" {
     faculdade = "impacta"
   }
 
-depends_on = [azurerm_resource_group.rodrigo]
+depends_on = [ azurerm_resource_group.rodrigo ]
 
 }
 
